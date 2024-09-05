@@ -1,0 +1,127 @@
+body {
+  background-size: cover;
+  background-position: center;
+}
+.text-box {
+  border: none;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 15px;
+  background: #f9f7fe;
+  font-family: "Futura", "Roboto", "Arial", sans-serif;
+  padding: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.text-box:hover {
+  border: 2px solid black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.placeholder {
+  font-family: "Futura", "Roboto", "Arial", sans-serif;
+}
+
+.button {
+  font-family: "Futura", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  background: #09180a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 1;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background: #e1e3e1;
+  transform: scale(1.05);
+}
+
+h1 {
+  font-family: "Futura", "Roboto", "Arial", sans-serif;
+  font-size: 38px;
+  margin: 20px 20px 20px 20px;
+  color: black;
+}
+
+p {
+  font-family: "Futura", "Roboto", "Arial", sans-serif;
+  color: gray;
+  font-size: 18px;
+  margin: 0 0 0 20px;
+}
+
+strong {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  border-top: 2px solid #f9f7fe;
+  padding-top: 15px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.information-box {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 10px rgba(26, 20, 109, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.current-temperature-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  padding-right: 20px;
+}
+
+.current-temperature-emoji {
+  position: relative;
+  top: -5px;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.current-temperature {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+}
+
+.current-temperature-unit {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  color: black;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-details {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
